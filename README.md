@@ -1,8 +1,8 @@
 # Sublime Snippets for JavaScript Console Logging
 
-## Repo Location
-Clone this repo to:<br />
-/Users/[USER_NAME]/Library/Application Support/Sublime Text [Version]/Packages/User/sublime-console-logs
+## Clone Repo
+cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
+git clone https://github.com/travishoki/sublime-js-console-logs
 
 ## Tab Triggers
 The following are Sublime Text tab triggers that will produce snippets for styled console logs
