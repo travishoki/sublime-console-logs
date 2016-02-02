@@ -1,23 +1,26 @@
-Sublime Snippets for Console Logging
+# Sublime Snippets for Console Logging
 
-# Location
+## Location
 Clone this repo to:
 /Users/[USER_NAME]/Library/Application Support/Sublime Text 2/Packages/User/sublime-console-logs
 
-# Log
+## Tab Triggers
+The following are tab triggers that will produce a styles console log
+
+**Log**
 cl
 
-# Key and Value
+**Key and Value**
 clv
 
-# Error
+**Error**
 cle
 
-# Success
+**Success**
 cls
 
-# Header 1
+**Header 1**
 clh1
 
-# Header 2
+**Header 2**
 clh1
