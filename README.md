@@ -7,23 +7,45 @@ git clone https://github.com/travishoki/sublime-js-console-logs
 ## Tab Triggers
 The following are Sublime Text tab triggers that will produce snippets for styled console logs
 
-### Log
+#### Log
 **cl** + Tab
-```javascript
+...javascript
 console.log('');
-```
+...
 
 **Key and Value**<br />
-clv
+**clv** + Tab
+...javascript
+console.log(': ' + );
+...
 
-**Error**<br />
-cle
-
-**Success**<br />
-cls
+**Object**<br />
+**cld** + Tab
+...javascript
+console.log('');
+console.dir();
+...
 
 **Header 1**<br />
-clh1
+**clh1** + Tab
+...javascript
+console.log('%c==========  ==========', 'font-size: 16px');
+...
 
 **Header 2**<br />
-clh2
+**clh2** + Tab
+...javascript
+console.log('%c-----  -----', 'font-size: 14px');
+...
+
+**Success**<br />
+**cls** + Tab
+...javascript
+console.log('%cSuccess', 'color: green;');
+...
+
+**Error**<br />
+**cle** + Tab
+...javascript
+console.log('%cError', 'color: red;');
+...
