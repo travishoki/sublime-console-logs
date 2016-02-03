@@ -7,8 +7,11 @@ git clone https://github.com/travishoki/sublime-js-console-logs
 ## Tab Triggers
 The following are Sublime Text tab triggers that will produce snippets for styled console logs
 
-**Log**<br />
-cl
+### Log
+**cl** + Tab
+...
+console.log('');
+...
 
 **Key and Value**<br />
 clv
@@ -23,4 +26,4 @@ cls
 clh1
 
 **Header 2**<br />
-clh1
+clh2
