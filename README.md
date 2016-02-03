@@ -9,43 +9,43 @@ The following are Sublime Text tab triggers that will produce snippets for style
 
 #### Log
 **cl** + Tab
-...javascript
+```javascript
 console.log('');
-...
+```
 
 **Key and Value**<br />
 **clv** + Tab
-...javascript
+```javascript
 console.log(': ' + );
-...
+```
 
 **Object**<br />
 **cld** + Tab
-...javascript
+```javascript
 console.log('');
 console.dir();
-...
+```
 
 **Header 1**<br />
 **clh1** + Tab
-...javascript
+```javascript
 console.log('%c==========  ==========', 'font-size: 16px');
-...
+```
 
 **Header 2**<br />
 **clh2** + Tab
-...javascript
+```javascript
 console.log('%c-----  -----', 'font-size: 14px');
-...
+```
 
 **Success**<br />
 **cls** + Tab
-...javascript
+```javascript
 console.log('%cSuccess', 'color: green;');
-...
+```
 
 **Error**<br />
 **cle** + Tab
-...javascript
+```javascript
 console.log('%cError', 'color: red;');
-...
+```
