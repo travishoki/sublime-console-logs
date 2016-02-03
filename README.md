@@ -9,9 +9,9 @@ The following are Sublime Text tab triggers that will produce snippets for style
 
 ### Log
 **cl** + Tab
-...
+```javascript
 console.log('');
-...
+```
 
 **Key and Value**<br />
 clv
