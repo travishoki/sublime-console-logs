@@ -1,7 +1,7 @@
-# Sublime Snippets for JavaScript Console Logging
+# Sublime Tab Triggers for JavaScript Console Logging
 
 ## Clone Repo
-cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User<br />
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User<br />
 git clone https://github.com/travishoki/sublime-js-console-logs
 
 ## Tab Triggers
