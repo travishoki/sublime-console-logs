@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-console.trace('%c%s', 'color: red;', 'Error: $1');
+console.trace('trace$1');
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cle</tabTrigger>
+	<tabTrigger>clt</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>

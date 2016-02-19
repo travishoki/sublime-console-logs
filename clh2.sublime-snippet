@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-console.log('%c----- $1 -----', 'font-size: 14px');
+console.log('%c----- %s -----', 'font-size: 14px', '$1');
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>clh2</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-console.log('%cSuccess$1', 'color: green;');
+console.log('%c%s', 'color: green;', 'Success: $1');
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>cls</tabTrigger>

@@ -26,26 +26,32 @@ console.log('');
 console.dir();
 ```
 
+**Trace**<br />
+**clt** + Tab
+```javascript
+console.trace('trace');
+```
+
 **Header 1**<br />
 **clh1** + Tab
 ```javascript
-console.log('%c==========  ==========', 'font-size: 16px');
+console.log('%c========== %s ==========', 'font-size: 16px', '');
 ```
 
 **Header 2**<br />
 **clh2** + Tab
 ```javascript
-console.log('%c-----  -----', 'font-size: 14px');
+console.log('%c----- %s -----', 'font-size: 14px', '');
 ```
 
 **Success**<br />
 **cls** + Tab
 ```javascript
-console.log('%cSuccess', 'color: green;');
+console.log('%c%s', 'color: green;', 'Success: ');
 ```
 
 **Error**<br />
 **cle** + Tab
 ```javascript
-console.log('%cError', 'color: red;');
+console.log('%c%s', 'color: red;', 'Error: ');
 ```
