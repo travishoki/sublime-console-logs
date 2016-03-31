@@ -55,3 +55,17 @@ console.log('%c%s', 'color: green;', 'Success: ');
 ```javascript
 console.log('%c%s', 'color: red;', 'Error: ');
 ```
+
+**Group**<br />
+**clg** + Tab
+```javascript
+console.log('%c%s', 'color: red;', 'Error: ');
+```
+
+**Warning**<br />
+**clw** + Tab
+```javascript
+console.groupCollapsed('$1');
+
+console.groupEnd();
+```
